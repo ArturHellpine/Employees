@@ -10,10 +10,6 @@ import EditEmployee from "../pages/edit-employee/EditEmployee";
 
 export const router = createBrowserRouter([
     {
-      path: Paths.default,
-      element: <>home</>
-    },
-    {
       path: Paths.home,
       element: <Employees />
     },
